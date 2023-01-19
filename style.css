@@ -4,10 +4,10 @@
   font-family: 'Inter', sans-serif;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
-}
+} */
 
 ul {
   list-style: none;
@@ -47,7 +47,7 @@ a {
   justify-content: center;
   text-align: center;
   align-content: center;
-  background-image: url("images/background.png");
+  background-image: url("assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
