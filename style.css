@@ -236,14 +236,6 @@ button {
   padding: 12px;
 }
 
-button:hover {
-  box-shadow: 0 8px 16px;
-}
-
-button:active {
-  background-color: #008552;
-}
-
 .project button {
   width: 122px;
   height: 48px;
