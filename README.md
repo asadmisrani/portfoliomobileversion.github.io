@@ -18,7 +18,7 @@
 
 > Project created for learning Git & Github WorkFlow at Microverse
 
-Hello Microverse it is a a personal portfolio site about Portfolio: finish mobile version made with Education purpose, it used with Figma design to create a UI, Flexbox to place elements in the page, CSS Grid to place elements, we add a contact form and finish the mobile version.
+Hello Microverse it is project portfolio includes a contact form with specific requirements: the Name field accepts up to 30 characters, Email field accepts only emails, and Message field accepts up to 500 characters. All fields have placeholder text and the correct type. The completion of the mobile version of website will enhance user experience.
 
 ## 🛠 Built With <a id="built-with"></a>
 
