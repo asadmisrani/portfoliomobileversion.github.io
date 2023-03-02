@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 /* body {
@@ -223,10 +223,7 @@ a {
   justify-content: flex-end;
   align-content: flex-end;
   background: #fff;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-radius: 8px 8px 6px 6px;
 }
 
 button {
@@ -239,14 +236,6 @@ button {
   padding: 12px;
 }
 
-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-button:active {
-  background-color: #008552;
-}
-
 .project button {
   width: 122px;
   height: 48px;
@@ -256,33 +245,27 @@ button:active {
 }
 
 .project1 {
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row: 1 1;
 }
 
 .project2 {
-  grid-row-start: 2;
-  grid-row-end: 2;
+  grid-row: 2 2;
 }
 
 .project3 {
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row: 3 3;
 }
 
 .project4 {
-  grid-row-start: 4;
-  grid-row-end: 4;
+  grid-row: 4 4;
 }
 
 .project5 {
-  grid-row-start: 5;
-  grid-row-end: 5;
+  grid-row: 5 5;
 }
 
 .project6 {
-  grid-row-start: 6;
-  grid-row-end: 6;
+  grid-row: 6 6;
 }
 
 .about-me {
@@ -333,18 +316,15 @@ button:active {
 }
 
 .languages {
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row: 1 1;
 }
 
 .frameworks {
-  grid-row-start: 2;
-  grid-row-end: 2;
+  grid-row: 2 2;
 }
 
 .skills {
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row: 3 3;
 }
 
 .habilities h2 {
@@ -376,7 +356,7 @@ button:active {
 }
 
 .about-me-container {
-  background-image: url(assets/img1-aboutme.png), url(assets/img2-aboutme.jpg);
+  background-image: url("assets/img1-aboutme.png"), url("assets/img2-aboutme.jpg");
   background-repeat: no-repeat, no-repeat;
   background-size: 68px 127px, 70px 57px;
   background-position: 307px 7px, 0 380px;
@@ -389,7 +369,7 @@ button:active {
   line-height: 52px;
   text-align: center;
   padding: 0;
-  margin: 60px 24px 58px 24px;
+  margin: 60px 24px 58px;
 }
 
 .contact-form form {
