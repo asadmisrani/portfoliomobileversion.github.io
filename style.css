@@ -32,6 +32,19 @@ a {
   align-self: center;
 }
 
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+
 .title-top {
   font-size: 20px;
   font-weight: 600;
@@ -39,6 +52,16 @@ a {
   margin: 10px 12px;
   padding: 10px 12px;
   line-height: 28px;
+  animation: rotate 1s ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .content {
@@ -127,6 +150,8 @@ a {
   row-gap: 24px;
 }
 
+
+
 .recent-works {
   display: flex;
   flex-direction: column;
@@ -170,6 +195,8 @@ a {
   background: #ebf0ee;
 }
 
+
+
 .project .img-container {
   flex: 1 1 252px;
   margin: 0;
@@ -194,6 +221,11 @@ a {
   margin: 0 8px;
   margin-bottom: 8px;
 }
+
+.habilities img:hover {
+  transform: scale(1.1);
+}
+
 
 .project ul li {
   background-color: #ebf0ee;
@@ -431,4 +463,7 @@ input:focus {
   background-repeat: no-repeat;
   background-size: 57px 145px;
   background-position: 315px 740px;
+}
+.contact-form p:hover {
+  transform: translateX(5px);
 }
