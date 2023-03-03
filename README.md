@@ -18,7 +18,11 @@
 
 > Project created for learning Git & Github WorkFlow at Microverse
 
-Hello Microverse it is project portfolio includes a contact form with specific requirements: the Name field accepts up to 30 characters, Email field accepts only emails, and Message field accepts up to 500 characters. All fields have placeholder text and the correct type. The completion of the mobile version of website will enhance user experience.
+Hello Microverse This project features several interactive design elements that enhance the user experience. The buttons have a smooth color transition effect when the user hovers over them, which adds a dynamic touch to the website. Additionally, the project images increase in size slightly when the user hovers over them, which draws attention to the content and adds visual interest.
+
+Another interactive element is the text of the form instructions, which moves slightly to the right when the user hovers over it. This subtle animation adds a layer of interactivity to the form, making it more engaging for the user.
+
+Finally, the project includes an animation for the logo of the page. When the page loads, the logo rotates once, adding a playful touch to the website's branding. Overall, these interactive design elements make the website more engaging and visually appealing, creating a positive user experience for visitors.
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -29,7 +33,7 @@ Hello Microverse it is project portfolio includes a contact form with specific r
 ## 👥 Author <a id="authors"></a>
 
 👤 **Asad Shareef**
-👤 **Joaquin Calle Aranzolo**
+👤 **Joaquin Calle**
 
 - GitHub: [@asadmisrani](https://github.com/asadmisrani)
 - GitHub: [Joaquin123455](https://github.com/Joaquin123455)

@@ -4,11 +4,6 @@
   font-family: Inter, sans-serif;
 }
 
-/* body {
-  margin: 0;
-  padding: 0;
-} */
-
 ul {
   list-style: none;
 }
@@ -32,6 +27,22 @@ a {
   align-self: center;
 }
 
+button {
+  background-color: #36b37e;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+button:hover {
+  background-color: lightblue;
+  border: none;
+  color: black;
+}
+
 .title-top {
   font-size: 20px;
   font-weight: 600;
@@ -39,6 +50,17 @@ a {
   margin: 10px 12px;
   padding: 10px 12px;
   line-height: 28px;
+  animation: rotate 1s ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .content {
@@ -195,6 +217,21 @@ a {
   margin-bottom: 8px;
 }
 
+.habilities img {
+  padding: 16px;
+  margin: 0;
+  height: 48px;
+  width: 48px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.habilities img:hover {
+  transform: scale(1.1);
+}
+
 .project ul li {
   background-color: #ebf0ee;
   padding: 8px 12px;
@@ -224,16 +261,6 @@ a {
   align-content: flex-end;
   background: #fff;
   border-radius: 8px 8px 6px 6px;
-}
-
-button {
-  background-color: #36b37e;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
-  border: none;
-  border-radius: 4px;
-  padding: 12px;
 }
 
 .project button {
@@ -344,17 +371,6 @@ button {
   margin-top: 24px;
 }
 
-.habilities img {
-  padding: 16px;
-  margin: 0;
-  height: 48px;
-  width: 48px;
-  background-color: #fff;
-  border-radius: 40px;
-  margin-top: 40px;
-  margin-bottom: 64px;
-}
-
 .about-me-container {
   background-image: url("assets/img1-aboutme.png"), url("assets/img2-aboutme.jpg");
   background-repeat: no-repeat, no-repeat;
@@ -431,4 +447,8 @@ input:focus {
   background-repeat: no-repeat;
   background-size: 57px 145px;
   background-position: 315px 740px;
+}
+
+.contact-form p:hover {
+  transform: translateX(6px);
 }
