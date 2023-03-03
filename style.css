@@ -4,11 +4,6 @@
   font-family: Inter, sans-serif;
 }
 
-/* body {
-  margin: 0;
-  padding: 0;
-} */
-
 ul {
   list-style: none;
 }
@@ -32,7 +27,6 @@ a {
   align-self: center;
 }
 
-
 button {
   background-color: #36b37e;
   color: #fff;
@@ -48,7 +42,6 @@ button:hover {
   border: none;
   color: black;
 }
-
 
 .title-top {
   font-size: 20px;
@@ -156,8 +149,6 @@ button:hover {
   row-gap: 24px;
 }
 
-
-
 .recent-works {
   display: flex;
   flex-direction: column;
@@ -201,8 +192,6 @@ button:hover {
   background: #ebf0ee;
 }
 
-
-
 .project .img-container {
   flex: 1 1 252px;
   margin: 0;
@@ -243,7 +232,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-
 .project ul li {
   background-color: #ebf0ee;
   padding: 8px 12px;
@@ -274,8 +262,6 @@ button:hover {
   background: #fff;
   border-radius: 8px 8px 6px 6px;
 }
-
-
 
 .project button {
   width: 122px;
