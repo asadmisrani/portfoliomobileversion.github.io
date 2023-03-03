@@ -33,7 +33,7 @@ Finally, the project includes an animation for the logo of the page. When the pa
 ## 👥 Author <a id="authors"></a>
 
 👤 **Asad Shareef**
-👤 **Joaquin Calle Aranzolo**
+👤 **Joaquin Calle**
 
 - GitHub: [@asadmisrani](https://github.com/asadmisrani)
 - GitHub: [Joaquin123455](https://github.com/Joaquin123455)
