@@ -45,6 +45,8 @@ button {
 
 button:hover {
   background-color: lightblue;
+  border: none;
+  color: black;
 }
 
 
@@ -462,5 +464,5 @@ input:focus {
 }
 
 .contact-form p:hover {
-  transform: translateX(5px);
+  transform: translateX(6px);
 }
